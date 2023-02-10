@@ -1,0 +1,11 @@
+{
+  "name": "aula_integracaojs",
+  "version": "1.0.0",
+  "description": "Integração de JS com web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cayo",
+  "license": "ISC"
+}

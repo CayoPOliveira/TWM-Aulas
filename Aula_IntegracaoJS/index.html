@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="br-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo JS com HTML</title>
+
+  <script src="js/funcao_js.js"></script>
+  <script src="js/scriptCep.js"></script>
+</head>
+
+<body onload="inicia()">
+  <div id="espaco_cabecalho">
+
+  </div>
+  <div id="espaco_tabela">
+    <button id="btn_carrega_tabela" onclick="funcao_carrega_tabela()">Carrega Função no JS</button>
+  </div>
+  <div id="espaco_cep">
+    <form method="get" action=".">
+      <label>Cep:
+        <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+          onblur="pesquisacep(this.value);" /></label><br />
+
+      <label>Rua:
+        <input name="rua" type="text" id="rua" size="60" />
+      </label><br />
+      <label>Bairro:
+        <input name="bairro" type="text" id="bairro" size="40" />
+      </label><br />
+      <label>Cidade:
+        <input name="cidade" type="text" id="cidade" size="40" />
+      </label><br />
+      <label>Estado:
+        <input name="uf" type="text" id="uf" size="2" />
+      </label><br />
+      <label>IBGE:
+        <input name="ibge" type="text" id="ibge" size="8" />
+      </label><br />
+    </form>
+  </div>
+</body>
+
+</html>
